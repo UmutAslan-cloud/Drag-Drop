@@ -1,5 +1,5 @@
-
 let boxes = document.querySelectorAll('.box');
+
 function handleDragStart(e) {
     this.style.opacity = '0.4';
     dragEl = this;
@@ -40,14 +40,14 @@ function handleDragLeave(e) {
 
 function handleDragEnd(e) {
     boxes.forEach(
-        function(box) {
+        function (box) {
             box.classList.remove('dragging');
         }
     )
 }
 const init = () => {
     boxes.forEach(
-        function(box) {
+        function (box) {
             box.addEventListener('dragstart', handleDragStart, false);
             box.addEventListener('dragenter', handleDragEnter, false);
             box.addEventListener('dragover', handleDragOver, false);

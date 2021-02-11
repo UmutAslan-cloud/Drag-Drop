@@ -11,14 +11,17 @@ width: 55px;
 height: 55px;
 border: 1px solid black;
 margin: 5px;
-background-color: blueviolet;
+background-color: rgb(243, 61, 41);
 color: white;
 text-align: center;
 font-size: 35px;
-font-family: fantasy;
+font-family: cursive;
 }
 button{
     margin: 10px;
     background-color: rgb(74, 74, 233);
     color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: cursive;
 }
